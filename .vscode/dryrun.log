@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dan/snmp_practice'
+make: Leaving directory '/home/dan/snmp_practice'
+ 
+make: *** No rule to make target 'example-demon.o', needed by 'example-demon'.
+make: *** No rule to make target 'nstAgentSubagentObject.o', needed by 'example-demon'.
+make: *** No rule to make target 'snmpdemoapp.o', needed by 'snmpdemoapp'.
+make: *** No rule to make target 'asyncapp.o', needed by 'asyncapp'.
+ 
